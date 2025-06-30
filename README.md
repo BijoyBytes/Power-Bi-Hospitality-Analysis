@@ -1,6 +1,6 @@
-# 📊 Revenue Insights in Hospitality Domain – Power BI Project
+#  Revenue Insights in Hospitality Domain – Power BI Project
 
-## 📝 Project Overview
+## Project Overview
 
 **Project Title:** Revenue Insights in Hospitality Domain  
 **Level:** Intermediate  
@@ -8,12 +8,12 @@
 
 This project showcases the use of Power BI to analyze and visualize key revenue metrics in the hospitality sector. It provides interactive dashboards to help stakeholders understand trends, track performance, and make data-driven decisions.
 
-![Library_project](https://github.com/BijoyBytes/Library-Management-System-P2/blob/main/library.jpg)
+![Library_project](https://github.com/BijoyBytes/Power-Bi-Hospitality-Analysis/blob/main/wmremove-transformed.jpeg)
 
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 1. Develop interactive dashboards to explore revenue and occupancy trends.
 2. Enable dynamic filtering by time period, property, and customer segment.
