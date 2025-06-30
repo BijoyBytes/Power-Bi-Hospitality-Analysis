@@ -8,6 +8,9 @@
 
 This project showcases the use of Power BI to analyze and visualize key revenue metrics in the hospitality sector. It provides interactive dashboards to help stakeholders understand trends, track performance, and make data-driven decisions.
 
+![Library_project](https://github.com/BijoyBytes/Library-Management-System-P2/blob/main/library.jpg)
+
+
 ---
 
 ## 🎯 Objectives
