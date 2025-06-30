@@ -34,18 +34,27 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
 
 ### 2. Data Model
 - Defined relationships between fact and dimension tables.
+  - **Dimension Table**: dim_date, dim_hotels, dim_rooms
+  - **Fact Table**: fact_bookings, fact_aggregated_bookings
 
   ![Library_project](https://github.com/BijoyBytes/Power-Bi-Hospitality-Analysis/blob/main/Data_Modiling_Hospitality.png)
 
 - Built DAX measures to compute KPIs:
   ```dax
-  Total Revenue = SUM(Bookings[Revenue])
 
-  ADR = DIVIDE([Total Revenue], [Total Rooms Sold])
-
-  Occupancy Rate = DIVIDE([Total Rooms Sold], [Available Rooms])
-
-  RevPAR = [ADR] * [Occupancy Rate]
+  • ADR (Average Daily Rate) - Total Rooms Revenue/ No. of Rooms Sold
+  
+  • DSRN (Daily Sellable Room Nights) = Total Rooms Available to Sell/ No. of Days
+  
+  • DURN (Daily Utilized Room Nights) = Total Checked out/ No. of Days
+  
+  • DBRN (Daily Booked Room Nights) = Total Bookings/No. of Days
+  
+  • Occupancy% = Total Rooms Occupied/ Total Rooms Available
+  
+  • RevPAR (Revenue Per Available Room) = Total Revenue / Total Rooms Available to Sell
+  
+  • Realization = DURN/DBRN
 
 
 ## Recommendations
