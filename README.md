@@ -11,7 +11,7 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
 ![Library_project](https://github.com/BijoyBytes/Power-Bi-Hospitality-Analysis/blob/main/wmremove-transformed.jpeg)
 
 
----
+
 
 ##  Objectives
 
@@ -21,9 +21,8 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
 4. Identify revenue drivers and underperforming segments.
 5. Share insights with management through an accessible Power BI report.
 
----
 
-## 📂 Project Structure
+##  Project Structure
 
 ### 1. Data Sources & Preparation
 - Imported booking and property data.
@@ -35,6 +34,9 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
 
 ### 2. Data Model
 - Defined relationships between fact and dimension tables.
+
+  ![Library_project](https://github.com/BijoyBytes/Power-Bi-Hospitality-Analysis/blob/main/Data_Modiling_Hospitality.png)
+
 - Built DAX measures to compute KPIs:
   ```dax
   Total Revenue = SUM(Bookings[Revenue])
@@ -44,3 +46,59 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
   Occupancy Rate = DIVIDE([Total Rooms Sold], [Available Rooms])
 
   RevPAR = [ADR] * [Occupancy Rate]
+
+
+## Recommendations
+  
+
+1. **📈 Boost Occupancy Rate**
+   - **Current:** 57.8%
+   - **Target:** 70%+
+   - **Actions:**
+     - Promote weekday stay packages and special offers.
+     - Focus marketing on high-performing platforms:
+       - *Tripster* – 70.1% realization
+       - *Direct Online* – 69.9% realization
+
+2. **❌ Reduce Cancellation Rate**
+   - **Current:** 24.8%
+   - **Target:** <15%
+   - **Actions:**
+     - Introduce non-refundable booking options.
+     - Encourage rebooking instead of cancellations.
+     - Prioritize channels with low cancellation rates:
+       - *Tripster* – 21.5% cancellations
+
+3. **🌟 Improve Guest Ratings**
+   - **Current Average Rating:** 3.62
+   - **Target:** 4.0+
+   - **Actions:**
+     - Improve service quality in low-rated cities:
+       - *Mumbai* – 2.3
+       - *Delhi* – 2.5
+     - Solicit and act on guest feedback proactively.
+
+4. **🛒 Optimize Booking Channels**
+   - **Objective:** Increase Direct Online bookings to reduce commission costs.
+   - **Current:** 5 bookings
+   - **Target:** 15+ bookings
+   - **Actions:**
+     - Promote Direct Online channels via loyalty programs and exclusive discounts.
+     - Reduce dependency on *MakeMyTrip* (currently 41 bookings).
+
+5. **💰 Drive Revenue Growth**
+   - **Current ADR:** ₹12.7K
+   - **Current RevPAR:** ₹7,337
+   - **Target RevPAR:** ₹8,000+
+   - **Actions:**
+     - Focus on high-revenue cities:
+       - *Mumbai* – ₹661M revenue
+       - *Hyderabad* – ₹321M revenue
+       - *Delhi* – ₹291M revenue
+     - Implement targeted upselling and cross-selling strategies.
+
+
+## Conclusion
+
+This Power BI project provides actionable insights into revenue, occupancy, and guest satisfaction for hospitality businesses. By monitoring KPIs and implementing these recommendations, organizations can improve operational efficiency, enhance customer experience, and drive sustainable growth.
+       
