@@ -56,7 +56,6 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
   
   • Realization = DURN/DBRN
 
-
 ## Recommendations
   
 
