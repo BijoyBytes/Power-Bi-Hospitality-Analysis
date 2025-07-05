@@ -56,6 +56,17 @@ This project showcases the use of Power BI to analyze and visualize key revenue 
   
   • Realization = DURN/DBRN
 
+## Preview 📊
+### Booking Analysis
+
+  ![Library_project](https://github.com/BijoyBytes/Power-Bi-Hospitality-Analysis/blob/main/Booking%20Analysis.png)
+
+### Revenue Analysis
+
+ ![Library_project](https://github.com/BijoyBytes/Power-Bi-Hospitality-Analysis/blob/main/Revenue%20Analysis.png)
+
+
+
 ## Recommendations
   
 
